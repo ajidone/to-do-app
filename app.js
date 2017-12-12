@@ -58,8 +58,8 @@ var onReady = function() {
         })
 
         toDoList.appendChild(newLi)
-        newLi.appendChild(title)
         newLi.appendChild(checkbox)
+        newLi.appendChild(title)
         newLi.appendChild(deleteButton)
     })
   }

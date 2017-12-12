@@ -1,0 +1,83 @@
+@media screen and (max-width: 100px) {
+  body {
+    display: flex;
+  }
+}
+
+body {
+  text-align: center;
+  font-family: verdana;
+  background-color: #edf2fc;
+}
+
+header {
+  background-color: #366c8d;
+  font-weight: bold;
+  color: #dce5f2;
+  font-size: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 30px 30px 0 0;
+  border-top: 5px solid #739ba1;
+  border-left: 5px solid #739ba1;
+  border-right: 5px solid #739ba1;
+}
+
+form {
+  padding: 20px;
+  background-color: #86b1cc;
+  width: 75%;
+  margin: 0 auto;
+  border-left: 5px solid #739ba1;
+  border-right: 5px solid #739ba1;
+  font-size: 1.1rem;
+}
+
+button {
+  font-size: 1rem;
+}
+
+input[type^='text'] {
+  height: 1.5rem;
+}
+
+ul {
+  background-color: #b2d3e8;
+  width: 75%;
+  margin: auto;
+  border-bottom: 5px solid #739ba1;
+  border-left: 5px solid #739ba1;
+  border-right: 5px solid #739ba1;
+  border-radius: 0 0 30px 30px;
+}
+
+#toDoList li {
+  list-style: none;
+  padding: 10px 0 40px 0;
+  box-shadow: 0px 1px 0 #848484;
+  position: relative;
+  left: -20px;
+}
+
+span, input[type^='checkbox'] {
+  float: left;
+  padding: 3px 0 0 0;
+}
+
+input[type^='checkbox'] {
+  margin: 7px 10px 0 0;
+}
+
+li:last-child {
+  margin: 0 0 20px 0;
+}
+
+#toDoList button {
+  border-radius: 12px;
+  background-color: #9b1f09;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  float: right;
+  box-shadow: 1px 1px 0 #848484;
+}
